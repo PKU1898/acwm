@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 数据与权重（大文件不要进 git）
+outputs/
+checkpoints/
+data/
+*.npy
+*.npz
+*.zarr/
+runs/
+wandb/
+
+.DS_Store
+*.log
